@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Read(//d/**)",
+      "Bash(curl:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx next build:*)",
+      "Bash(node -e \"try { require(''babel-core'').transform(require(''fs'').readFileSync(''./app/b2b/page.tsx'', ''utf8''), { presets: [''@babel/preset-react''] }); console.log(''B2B JSX syntax is valid''); } catch (e) { console.error(''B2B JSX error:'', e.message); }\")",
+      "Bash(for page in \"\" \"b2b\" \"b2c\" \"c2c\" \"ai-aggregation\" \"about\" \"contact\" \"investor-relations\" \"media\" \"careers\")",
+      "Bash(do echo -n \"$page: \")",
+      "Bash(done)",
+      "Bash(for page in \"privacy\" \"terms\" \"security\")",
+      "Bash(for page in \"\" \"b2b\" \"b2c\" \"c2c\" \"ai-aggregation\" \"about\" \"contact\" \"investor-relations\" \"media\" \"careers\" \"privacy\" \"terms\" \"security\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
