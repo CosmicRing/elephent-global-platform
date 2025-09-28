@@ -54,6 +54,10 @@ const translations = {
     'English': 'Contact',
     '中文': '联系我们'
   },
+  'vision': {
+    'English': 'Vision',
+    '中文': '愿景'
+  },
   'aiEngine': {
     'English': 'AI Engine',
     '中文': 'AI引擎'
@@ -1769,6 +1773,136 @@ const translations = {
   'suitableForGrowingCompanies': {
     'English': 'Suitable for growing companies',
     '中文': '适合成长期企业'
+  },
+
+  // 愿景页面翻译
+  'globalVisionMission': {
+    'English': 'Global Vision & Mission',
+    '中文': '全球愿景使命'
+  },
+  'elephentGlobalOutreach': {
+    'English': 'Elephent Global Outreach',
+    '中文': '大象全球出海'
+  },
+  'strongestGlobalBridge': {
+    'English': 'Strongest Global Bridge',
+    '中文': '最强出海摆渡人'
+  },
+  'shortestRouteClosestPath': {
+    'English': 'Shortest Route • Closest Path',
+    '中文': '最近的航程 • 最近的路'
+  },
+  'coreOpportunities': {
+    'English': 'Core Business Opportunities',
+    '中文': '核心商业机遇'
+  },
+  'productGlobalExpansion': {
+    'English': 'Product Global Expansion',
+    '中文': '产品全球化扩张'
+  },
+  'capitalConnections': {
+    'English': 'Capital Connections',
+    '中文': '资本链接'
+  },
+  'projectSelection': {
+    'English': 'Project Selection',
+    '中文': '项目甄选'
+  },
+  'resourceIntegration': {
+    'English': 'Resource Integration',
+    '中文': '资源整合'
+  },
+  'channelExpansion': {
+    'English': 'Channel Expansion',
+    '中文': '渠道扩充'
+  },
+  'marketDevelopment': {
+    'English': 'Market Development',
+    '中文': '开拓市场'
+  },
+  'orderAcquisition': {
+    'English': 'Order Acquisition',
+    '中文': '获取订单'
+  },
+  'partnershipBuilding': {
+    'English': 'Partnership Building',
+    '中文': '合作伙伴建设'
+  },
+  'confirmedGlobalPartners': {
+    'English': 'Confirmed Global Partners',
+    '中文': '已确定的全球合作伙伴'
+  },
+  'keyRegionalFocus': {
+    'English': 'Key Regional Focus Areas',
+    '中文': '重点关注出海地区'
+  },
+  'industryExpansionAsia': {
+    'English': 'Industry Expansion (Southeast Asia)',
+    '中文': '产业出海（东南亚洲）'
+  },
+  'industryExpansionMiddleEast': {
+    'English': 'Industry Expansion (Middle East)',
+    '中文': '产业出海（中东地区）'
+  },
+  'industryExpansionEurope': {
+    'English': 'Industry Expansion (Europe)',
+    '中文': '产业出海（欧洲）'
+  },
+  'industryExpansionBeltRoad': {
+    'English': 'Industry Expansion (Belt & Road)',
+    '中文': '产业出海（一带一路）'
+  },
+  'strategicPartners': {
+    'English': 'Strategic Partner Network',
+    '中文': '战略合作伙伴网络'
+  },
+  'fortune500Corporations': {
+    'English': 'Fortune 500 Corporations',
+    '中文': 'Fortune 500企业集团'
+  },
+  'internationalBankingGroup': {
+    'English': 'International Banking Groups',
+    '中文': '国际银行集团'
+  },
+  'technologyInnovationCenters': {
+    'English': 'Technology Innovation Centers',
+    '中文': '科技创新中心'
+  },
+  'globalTradeAssociations': {
+    'English': 'Global Trade Associations',
+    '中文': '全球贸易协会'
+  },
+  'emergingMarketFunds': {
+    'English': 'Emerging Market Investment Funds',
+    '中文': '新兴市场投资基金'
+  },
+  'economicDevelopmentBoards': {
+    'English': 'Economic Development Boards',
+    '中文': '经济发展局'
+  },
+  'globalCountries': {
+    'English': 'Global Countries',
+    '中文': '全球国家'
+  },
+  'annualRevenue': {
+    'English': 'Annual Revenue',
+    '中文': '年度营收'
+  },
+  'enterprisePartners': {
+    'English': 'Enterprise Partners',
+    '中文': '企业合作伙伴'
+  },
+  'regionalOffices': {
+    'English': 'Regional Offices',
+    '中文': '区域办事处'
+  },
+  'joinGlobalJourney': {
+    'English': 'Ready to join our global journey?',
+    '中文': '准备加入我们的全球征程？'
+  },
+  'startYourJourney': {
+    'English': 'Start Your Journey',
+    '中文': '开启您的征程'
   }
 };
 

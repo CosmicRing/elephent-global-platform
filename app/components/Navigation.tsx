@@ -264,6 +264,9 @@ export default function Navigation() {
                 </div>
 
                 {/* Additional Executive Navigation */}
+                <a href="/vision" className="text-slate-700 hover:text-amber-600 font-bold text-lg transition-all duration-300 hover:scale-105">
+                  {t('vision')}
+                </a>
                 <a href="/about" className="text-slate-700 hover:text-amber-600 font-bold text-lg transition-all duration-300 hover:scale-105">
                   {t('about')}
                 </a>
