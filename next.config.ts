@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
 
   // 图片优化 - 使用国内CDN
   images: {
+    unoptimized: true,
     domains: [
       'images.unsplash.com',
       'cdn.jsdelivr.net',
@@ -55,7 +56,8 @@ const nextConfig: NextConfig = {
   },
 
   // 输出配置
-  output: 'standalone',
+  output: 'export',
+  trailingSlash: true,
 
   // 国内访问优化
   poweredByHeader: false,

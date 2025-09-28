@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
   },
   "dependencies": {
     "react": "19.1.0",
