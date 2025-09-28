@@ -20,7 +20,8 @@
       "Bash(git remote add:*)",
       "Bash(git branch:*)",
       "Bash(git push:*)",
-      "Read(//c/Users/tanyiguo/xwechat_files/wxid_74ru2304jjn722_4a5a/temp/RWTemp/2025-09/**)"
+      "Read(//c/Users/tanyiguo/xwechat_files/wxid_74ru2304jjn722_4a5a/temp/RWTemp/2025-09/**)",
+      "Bash(chmod:*)"
     ],
     "deny": [],
     "ask": []

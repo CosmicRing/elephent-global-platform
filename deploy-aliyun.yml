@@ -1,0 +1,61 @@
+# 阿里云部署配置文件
+# 大象科技全球平台 - 国内版本
+
+version: '2.0'
+
+services:
+  elephent-platform:
+    # 构建配置
+    build:
+      context: .
+      dockerfile: Dockerfile.china
+
+    # 端口配置
+    ports:
+      - "80:3000"
+      - "443:3000"
+
+    # 环境变量
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+
+    # 资源限制
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4G
+        reservations:
+          cpus: '1.0'
+          memory: 2G
+
+    # 健康检查
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+    # 日志配置
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+
+    # 重启策略
+    restart: unless-stopped
+
+# 网络配置
+networks:
+  default:
+    driver: bridge
+
+# 卷配置
+volumes:
+  app_data:
+    driver: local
