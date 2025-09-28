@@ -1,36 +1,135 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐘 Elephent Technology - Global E-commerce Platform
 
-## Getting Started
+> **Enterprise-grade multi-marketplace platform** connecting businesses and consumers worldwide.
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-15.5.4-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-06B6D4)](https://tailwindcss.com/)
+
+## 🌟 Features
+
+### 🏢 **Multi-Platform Ecosystem**
+- **B2B Enterprise**: Wholesale marketplace for businesses
+- **B2C Consumer**: Direct-to-consumer e-commerce platform
+- **C2C Innovation**: Creator-to-consumer marketplace
+- **AI Aggregation**: Intelligent demand analysis and matching
+
+### 🌐 **Global Ready**
+- **Dual Language**: English/Chinese with seamless switching
+- **Responsive Design**: Mobile, tablet, and desktop optimized
+- **Enterprise Grade**: Fortune 500 level infrastructure
+- **SEO Optimized**: Search engine friendly
+
+### 🛠️ **Admin Dashboard**
+- User management system
+- Order tracking and analytics
+- Product management tools
+- Real-time data insights
+
+### 📱 **Complete Site Structure**
+- Landing page with dynamic hero sections
+- Company information (About, Contact, Careers)
+- Legal pages (Privacy, Terms, Security)
+- Media center and investor relations
+- AI-powered features
+
+## 🚀 Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/elephent-global-platform.git
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the platform.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 15.5.4 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: React Context API
+- **Deployment**: Vercel
+- **Icons**: Heroicons
 
-## Learn More
+## 📖 Pages Overview
 
-To learn more about Next.js, take a look at the following resources:
+| Page | Description | Status |
+|------|-------------|--------|
+| `/` | Landing page with platform overview | ✅ |
+| `/b2b` | Business-to-business marketplace | ✅ |
+| `/b2c` | Consumer e-commerce platform | ✅ |
+| `/c2c` | Creator innovation marketplace | ✅ |
+| `/ai-aggregation` | AI-powered demand analysis | ✅ |
+| `/admin` | Management dashboard | ✅ |
+| `/about` | Company information | ✅ |
+| `/contact` | Contact form and details | ✅ |
+| `/careers` | Job opportunities | ✅ |
+| `/media` | Press and media resources | ✅ |
+| `/investor-relations` | Investor information | ✅ |
+| `/privacy` | Privacy policy | ✅ |
+| `/terms` | Terms of service | ✅ |
+| `/security` | Security information | ✅ |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Language Support
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The platform supports seamless language switching between:
+- **English**: For international users
+- **中文**: For Chinese-speaking markets
 
-## Deploy on Vercel
+Toggle languages using the selector in the top navigation.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Design Highlights
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Premium UI**: Modern, professional interface design
+- **Interactive Elements**: Hover effects and smooth transitions
+- **Color-coded Sections**: Each platform has distinctive branding
+- **Mobile-first**: Responsive across all device sizes
+
+## 📊 Performance
+
+- **Fast Loading**: Optimized for global access
+- **SEO Ready**: Meta tags and structured data
+- **Accessible**: WCAG compliance
+- **Production Ready**: Built and tested for deployment
+
+## 🔧 Development
+
+```bash
+# Development
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+
+# Lint code
+npm run lint
+```
+
+## 🌟 Deployment
+
+This platform is optimized for deployment on **Vercel**:
+
+1. Push code to GitHub
+2. Connect repository to Vercel
+3. Deploy automatically with zero configuration
+
+## 📞 Contact
+
+For inquiries about the platform:
+- **Email**: contact@elephant-global.com
+- **Website**: [Deployed on Vercel]
+
+---
+
+**Built with ❤️ using Next.js and modern web technologies**
+
+*This project showcases enterprise-level e-commerce platform development with multi-language support and comprehensive business features.*
